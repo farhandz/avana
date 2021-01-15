@@ -1,0 +1,156 @@
+/* sidebar wrapper */
+.wrap-sidebar {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrap-sidebar-element {
+    overflow: hidden;
+}
+
+.wrapp-section-modules {
+    overflow: auto;
+    height: 80vh;
+    width: 100%;
+    font-size: 15px;
+
+}
+
+.wrapp-section-modules .dashboard {
+    margin-top: 35px;
+}
+
+.child-of-text {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* header */
+.text-date {
+    width: 20%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+.overall-sales {
+    border-bottom: 3px dashed darkgray;
+    width: max-content;
+}
+
+.overall-orders {
+    border-bottom: 3px dashed darkgray;
+    width: max-content
+}
+
+/* end of header */
+
+/* card */
+.text-card-wrapper {
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: royalblue;
+    height: 10vh;
+}
+
+/* end of card */
+
+
+/* Profile */
+
+.wrap-profile {
+    border: 1px solid darkblue;
+    height: 100vh;
+    background: url('../../assets/wave\ \(1\).svg');
+    background-size: cover;
+}
+
+.setting-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: floralwhite;
+}
+
+.icon-setting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* end profile */
+
+/* chart */
+.wrap-chart {
+    height: max-content;
+}
+
+.image-wrapper-chart {
+    border: 1px solid dimgrey;
+    background-color: whitesmoke;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end of chart */
+
+
+/*  navbar  */
+.navbar-wrapper {
+    height: auto;
+    background-color: royalblue;
+    padding: 10px;
+}
+
+.navbar-wrapper ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-wrapper ul li {
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* end of navbar */
+
+/* Track */
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+
+.slider {
+    position: fixed !important;
+    z-index: 1;
+    left: 0.01px;
+    transition: all 0.5s;
+}
+
+@media (max-width: 768px) {
+    .wrap-sidebar-manis {
+        position: fixed !important;
+        z-index: 1;
+        height: 100vh;
+        transition: all 2s;
+        left: -700px;
+    }
+}
