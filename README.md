@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img width="960" alt="avana" src="https://user-images.githubusercontent.com/63778922/104669143-0c266900-570c-11eb-8e3d-be8184c51001.PNG">
+
+# demo
+[demo here](https://confident-wozniak-06ccb7.netlify.app/)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
